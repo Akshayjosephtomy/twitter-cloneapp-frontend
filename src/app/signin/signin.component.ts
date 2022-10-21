@@ -11,12 +11,12 @@ export class SigninComponent implements OnInit {
   constructor(private myrouter:Router) { }
 
   email=""
-  password=""
+  pass=""
 
   readvalue=()=>{
     let data={
       "email":this.email,
-      "password":this.password
+      "pass":this.pass
     }
     console.log(data)
   }

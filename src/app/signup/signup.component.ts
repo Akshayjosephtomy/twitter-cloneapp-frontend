@@ -14,7 +14,7 @@ export class SignupComponent implements OnInit {
   phone=""
   place=""
   email=""
-  password=""
+  pass=""
   cpassword=""
 
   readValue=()=>{
@@ -23,7 +23,7 @@ export class SignupComponent implements OnInit {
       "dob":this.dob,
       "phone":this.phone,
       "email":this.email,
-      "password":this.password,
+      "pass":this.pass,
       "cpassword":this.cpassword
     }
     console.log(data)
